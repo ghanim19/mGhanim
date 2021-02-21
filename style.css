@@ -1,12 +1,4 @@
-body{
-    background-image: url(Back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: purple;
-    background-clip: border-box;
-    background-blend-mode: soft-light;
-    color: white;
-}
+
 h1{
     font-family: "Hammer Thin";
     text-align: center;

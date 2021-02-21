@@ -1,0 +1,126 @@
+body{
+    background-image: url(img/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: purple;
+    background-clip: border-box;
+    background-blend-mode: soft-light;
+    color: white;
+}
+h1{
+    font-family: "Hammer Thin";
+    text-align: center;
+    padding-bottom: 10px;
+transition: 0.8s;
+}
+h1:hover{
+    border-bottom: 3px solid white;
+    border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 150px; 
+    background-color: purple;
+}
+.Myim {
+    width: 15%;
+margin-left: 42.5%;
+border: 1px solid white;
+    border-bottom-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    transition: 0.8s;
+
+}
+.Myim:hover {
+    border: 1px solid white;
+     border-bottom-left-radius: 300px;
+        border-bottom-right-radius: 300px;
+border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.summary{
+     font-family: "Hammer Thin";
+    font-size: 150%;
+    text-align: center;
+    border-top: 2px solid white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 15px;
+    transition: 0.8s;
+}
+.summary:hover{
+  border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+        background-color: purple;
+
+}
+.Ed{
+   font-family: "Hammer Thin";
+    font-size: 200%;
+    text-align: center;   
+}
+.summary1{
+     font-family: "Hammer Thin";
+    font-size: 150%;
+    text-align: left;
+    border-top: 2px solid white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 15px;
+    transition: 0.8s;
+}
+.summary1:hover{
+  border-bottom: 2px solid white;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+        background-color: purple;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 50%;
+  
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125685;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.social{
+    padding-left: 42.5%;;
+}
+.bar{
+         font-family: "Hammer Thin";
+    text-align: center;
+    border: 1px solid white;
+    background-color: darkgrey;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    opacity: 0.4;
+    transition: 0.8s;
+}
+.bar:hover{
+    opacity: 10;
+}

@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: purple;
-    background-clip: border-box;
+    background-clip: border-box; 
     background-blend-mode: soft-light;
     color: white;
 }

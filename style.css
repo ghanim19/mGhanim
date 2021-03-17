@@ -1,5 +1,14 @@
-
+body{
+    background-image: url(img/Back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: purple;
+    background-clip: border-box;
+    background-blend-mode: soft-light;
+    color: white;
+}
 h1{
+    font-size: 300%;
     font-family: "Hammer Thin";
     text-align: center;
     padding-bottom: 10px;
@@ -115,4 +124,7 @@ border-top-left-radius: 100px;
 }
 .bar:hover{
     opacity: 10;
+}
+li{
+    text-align: center;
 }

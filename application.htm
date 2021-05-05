@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div style="width: 700px; margin:auto; box-shadow:2px 3px #888888; ">
+        <h1>Internship Application</h1>
+        <p>please fill out the form below and hit submit to be considered for the internship</p>
+        <form>
+            <fieldset>
+                <legend>personalia: </legend>
+    
+                <label >First name: </label>
+                <input type="text" id="nameCheck" required onclick="changeColor(this) ,requiredFields(0)">
+                <br>
+                <label >Last name: </label>
+                <input type="text" id="lastCheck" required onclick="changeColor(this),requiredFields(1)">
+                <br>
+                <label >personal Website:</label>
+                <input type="url" id="urlCheck" onclick="changeColor(this),requiredFields(2)">
+                <br>
+                <label >Enter a phone number: </label>
+                <input type="tel" id="telCheck" placeholder="123-45-678" onclick="changeColor(this),requiredFields(3)">
+                <br>
+                <label >Enter your email: </label>
+                <input type="email" id="emailCheck" required onclick="changeColor(this),requiredFields(4)">
+                <br>
+                <label >Username: </label>
+                <input type="text" id="userCheck" required onclick="changeColor(this),requiredFields(5)">
+                <br>
+                <label >password: </label>
+                <input type="password" id="passCheck" required onclick="changeColor(this),requiredFields(6)">
+                <br>
+            </fieldset>
+        </form>
+        <form >
+            <fieldset>
+                <legend>Education:</legend>
+    
+                <label >Degree:</label>
+                <input id="check" type="text" onclick="changeColor(this),requiredFields(7)">
+                <br>
+                <label >when will you graduate: </label>
+                <input type="date" id="check1">
+                <br>
+                <label>Upload your CV and other documents: </label>
+                <input type="file" id="check2" multiple>
+            </fieldset>
+        </form>
+        <div style="width:200px; margin: 30px auto; padding:20px">
+            <input type="submit" onclick="validateForm()">
+            <button onclick="spilt()">save</button>
+            <input type="reset">
+        </div>
+    </div>
+    <script src="jsfile.js"></script>
+</body>
+</html>
